@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(196, 193, 193);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    font-weight: bold;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    background-color: rgb(255, 255, 254);
+    width: 85vw;
+   
+}
+
+.infoContainer {
+    background-color: rgb(254, 253, 253);
+    height: 55vh;
+    width: 75vw;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-around;
+    color: #120103;
+    
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 88px;
+}
+.contactform h1{
+    font-family: monospace;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    padding: 3px;
+    margin: 6px 0 0 0;
+    width: 26vw;
+    border-radius: 5px;
+}
+.contactform form button{
+    margin: 15px 0 0 0;
+    padding: 7px 7px;
+    border-radius: 8px;
+    background-color: rgb(31, 31, 84);
+    color: white;
+    font-size: 17px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: rgb(14, 59, 59);
+    margin: 0 5px;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    font-size: 16px;
+}
+
+.devPic img {
+    width: 381px;
+    height: 55vh;
+
+}
+
+
+.container {
+    display: flex;
+}
+
+.hello {
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.about {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.moreabout {
+    margin-left: 8px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons button {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 9px;
+    border-radius: 35px;
+    color: white;
+    background-color: rgb(81, 145, 205);
+    cursor: pointer;
+    border: 2px solid rgb(140, 160, 197);
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: rgb(81, 145, 205);
+}
+#form-check {
+flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0 88px;
+}
+.blogItem h2{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blogItem p{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.blogContainer h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 36px 102px;
+
+}
+.blogContainer{
+    margin: 0 88px;
+}
+
+.blogItem button {
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 8px;
+    border-radius: 35px;
+    color: white;
+    background-color: rgb(81, 145, 205);
+    cursor: pointer;
+    border: 2px solid rgb(140, 160, 197);
+}
+.blogItem button:hover {
+    background-color: white;
+    color: rgb(14, 62, 107);
+    font-weight: bold;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.intro{
+    margin-left: 220px;
+    font-size: 21px;
+}
+.intro h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+    padding-left: 78px;
+    padding-top: 47px;
+    color: brown;
+}
+.intro p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+    padding-left: 78px;
+    padding-top: 47px;
+}
+.cross{
+  margin-left: 160px;
+}
+@media (min-width: 1615px) {
+    .devPic{
+        display: none;
+    }
+    .blogContainer,.contactform,.intro{
+        margin: 50px 8px;
+    }
+}
+
+.blogItem h2{
+    color: blueviolet;
+}
